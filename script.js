@@ -15,31 +15,31 @@ let names = [
 let div_root = document.querySelector('#root')
 
 
-// for( let elem of names){
-//     const div_card = document.createElement("div");
-// const div_image = document.createElement('img')
-// const div_info = document.createElement("div");
+for( let elem of names){
+    const div_card = document.createElement("div");
+const div_image = document.createElement('img')
+const div_info = document.createElement("div");
 
-// const div_id = document.createElement("div");
-// const div_name = document.createElement("div");
-// const div_salary = document.createElement("div");
+const div_id = document.createElement("div");
+const div_name = document.createElement("div");
+const div_salary = document.createElement("div");
 
 
 
-// div_id.innerText = elem.id
-// div_name.innerText = elem.name
-// div_salary.innerText = elem.salary
+div_id.innerText = elem.id
+div_name.innerText = elem.name
+div_salary.innerText = elem.salary
 
-// div_card.className= 'card'
-// div_image.src = elem.image;
-// div_image.width = '350';
-// div_image.height = '350'
+div_card.className= 'card'
+div_image.src = elem.image;
+div_image.width = '350';
+div_image.height = '350'
 
-// div_info.append(div_id,div_name,div_salary)
-// div_card.append(div_image,div_info)
-// div_root.append(div_card)
+div_info.append(div_id,div_name,div_salary)
+div_card.append(div_image,div_info)
+div_root.append(div_card)
 
-// }
+}
 
 //----------------------------------------------------------------------
 // C функцией
